@@ -1,0 +1,18 @@
+:root {
+    /* colors */
+    --font-color: rgba(255, 255, 255, 1);
+    --font-accent-color: rgba(255, 255, 255, 0.7);
+    --bg-color: #1b1919;
+    --accent-color: #545050;
+  
+    /* fonts */
+    --error-message-font: 400 normal 30px "Oswald", sans-serif;
+  
+    --Oswald-title: 700 normal 75px "Oswald", sans-serif;
+    --Oswald-regular: 700 normal 30px "Oswald", sans-serif;
+  
+    --Fira-regular: 400 normal 18px "Fira Sans Condensed", sans-serif;
+
+    --brdr: red 1px solid; 
+    --default-border: solid transparent 1px;
+  }

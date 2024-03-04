@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Посмотри в окно</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/preloader.css" />
     <link rel="stylesheet" href="./styles/error.css" />
@@ -14,6 +16,14 @@
     <main class="content">
       <section class="result">
         <div class="result__video-container">
+          <div class="preloader">
+            <div class="preloader-chasing-squares">
+              <div class="square"></div>
+              <div class="square"></div>
+              <div class="square"></div>
+              <div class="square"></div>
+            </div>
+          </div>
           <video src="" controls class="result__video" poster=""></video>
         </div>
         <form class="search-form">
@@ -32,7 +42,7 @@
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Время суток</h2>
             <div class="search-form__checkbox-list">
-              <label class="search-form__label">
+              <label class="search-form__label checkbox_label">
                 <input
                   type="checkbox"
                   name="time"
@@ -42,7 +52,7 @@
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">Утро</span>
               </label>
-              <label class="search-form__label">
+              <label class="search-form__label checkbox_label">
                 <input
                   type="checkbox"
                   name="time"
@@ -52,7 +62,7 @@
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">День</span>
               </label>
-              <label class="search-form__label">
+              <label class="search-form__label checkbox_label">
                 <input
                   type="checkbox"
                   name="time"
@@ -74,6 +84,7 @@
           <span class="content__accent">По-</span><br />смотри<br />в окно
         </h1>
         <ul class="content__list">
+          
           <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
         </ul>
       </section>

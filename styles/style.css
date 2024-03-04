@@ -61,6 +61,7 @@
   width: 711px;
   height: 386px;
   overflow: hidden;
+  position: relative;
 }
 
 .result__video {

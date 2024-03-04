@@ -118,8 +118,9 @@
   color: var(--font-color, #fff);
 }
 
-.content__card-link:active, .content__card-link_current {
-  background-color: var(--accent-color); 
+.content__card-link:active,
+.content__card-link_current {
+  background-color: var(--accent-color);
 }
 
 .content__card-link:focus {
@@ -259,7 +260,6 @@
   background-color: transparent;
 
   cursor: pointer;
-  position: relative;
 }
 
 .search-form__pseudo-checkbox:focus {
@@ -269,9 +269,9 @@
 
 .search-form__pseudo-checkbox::after {
   content: "";
-  position: absolute;
-  top: 1px;
-  left: 1px;
+  float: right;
+  margin-block-start: 1px;
+  margin-inline-end: 1px;
   width: 15px;
   height: 15px;
   background-color: transparent;
